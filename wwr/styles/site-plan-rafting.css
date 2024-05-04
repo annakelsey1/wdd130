@@ -7,16 +7,16 @@ body {
 }
 
 :root {
-    --primary-color: #XXXXXX;
-    --secondary-color: #XXXXXX;
-    --accent-color: #XXXXXX;
-    --additional-accent-color: #XXXXXX;
+    --primary-color: #0E71A5;
+    --secondary-color: #C2B18B;
+    --accent-color: #282828;
+    --additional-accent-color: #FFFFFF;
     --heading-font: var(--paragraph-font);
     --paragraph-or-default-font: var(--paragraph-font);
-    --navigation-background-color: #XXXXXX;
-    --navigation-link-color: #XXXXXX;
-    --navigation-hover-link-color: #XXXXXX;
-    --navigation-hover-background-color: #XXXXXX;
+    --navigation-background-color: #0E71A5;
+    --navigation-link-color: #C2B18B;
+    --navigation-hover-link-color: #282828;
+    --navigation-hover-background-color: #FFFFFF;
     max-width: 960px;
     padding: 20px;
 }
