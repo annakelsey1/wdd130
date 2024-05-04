@@ -7,16 +7,16 @@ body {
 }
 
 :root {
-    --primary-color: #XX;
-    --secondary-color: #XX;
-    --accent-color: #XX;
-    --additional-accent-color: #XX;
+    --primary-color: #XXXXXX;
+    --secondary-color: #XXXXXX;
+    --accent-color: #XXXXXX;
+    --additional-accent-color: #XXXXXX;
     --heading-font: var(--paragraph-font);
     --paragraph-or-default-font: var(--paragraph-font);
-    --navigation-background-color: #XX;
-    --navigation-link-color: #XX;
-    --navigation-hover-link-color: #XX;
-    --navigation-hover-background-color: #XX;
+    --navigation-background-color: #XXXXXX;
+    --navigation-link-color: #XXXXXX;
+    --navigation-hover-link-color: #XXXXXX;
+    --navigation-hover-background-color: #XXXXXX;
     max-width: 960px;
     padding: 20px;
 }
