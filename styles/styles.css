@@ -6,7 +6,8 @@
 
 aside {
     width: 400px;
-    text-align: absolute;
+    text-align: center;
+    position: relative;
 }
 
 nav {
