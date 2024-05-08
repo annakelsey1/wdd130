@@ -1,11 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 aside {
     width: 400px;
-    margin: 10px;
-    border: 1px solid black;
-    padding: 1px;
-    background-color: darkslategray;
-    color: blueviolet;
-    text-align: center;
+    text-align: absolute;
 }
 
 nav {
@@ -29,9 +30,12 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
-p {padding: 0px;}
+p {
+    padding: 0;
+}
 
 main {
     max-width: 840px;
@@ -46,4 +50,13 @@ footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: cornflowerblue;
+    color: burlywood;
 }
