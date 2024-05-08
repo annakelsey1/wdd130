@@ -10,6 +10,12 @@ aside {
     position: relative;
 }
 
+aside h2{
+    position: absolute;
+    top: 40px;
+    left: 150px;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
