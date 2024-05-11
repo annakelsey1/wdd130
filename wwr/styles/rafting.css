@@ -17,14 +17,14 @@
 }
 
 h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
+    font-family: var(--paragraph-font);
     color: var(--primary-color);
 }
 
 .overlay-text {
     position: absolute;
-    font-family: var(--heading-font);
-    color: var(--accent-color)
+    font-family: var(--paragraph-font);
+    color: var(--accent-color);
 }
 
 article {
@@ -36,9 +36,8 @@ p {
     color: var(--primary-color);
 }
 
-footer nav a:link {
-    text-decoration: none;
-    width: 20%;
+footer nav img {
+    width: 20px;
 }
 
 .hero img {
