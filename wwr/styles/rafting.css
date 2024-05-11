@@ -21,7 +21,7 @@ h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
-h1 {
+.overlay-text {
     position: absolute;
     font-family: var(--heading-font);
     color: var(--accent-color)
@@ -42,6 +42,7 @@ footer nav a:link {
 }
 
 .hero img {
+    
     position: relative;
     display: block;
     width: 100%;
