@@ -38,6 +38,7 @@ p {
 
 footer nav a:link {
     text-decoration: none;
+    width: 50px;
 }
 
 .hero img {
