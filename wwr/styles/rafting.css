@@ -21,7 +21,7 @@ h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
-.overlay-text {
+h1 {
     position: absolute;
     font-family: var(--paragraph-font);
     color: var(--accent-color);
