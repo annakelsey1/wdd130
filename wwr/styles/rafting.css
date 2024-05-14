@@ -41,9 +41,16 @@ footer nav img {
 }
 
 .hero img {
-    
     position: relative;
     display: block;
     width: 100%;
     height: auto;
+}
+
+.header {
+    position: relative;
+    background-image: url('./../images/rafting11_1024.jpg');
+    background-repeat: none;
+    width: 80vw;
+    height: 50vh;
 }
