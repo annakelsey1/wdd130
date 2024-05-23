@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Anna Kelsey | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email</label>
+                    <input type="text" id="useremail" name="useremail">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="favoritebrowser">What is your favorite internet browser?</label>
+                    <select id="favoritebrowser" name="favoritebrowser">
+                            <option value="chrome">Google Chrome</option>
+                            <option value="firefox">Fire Fox</option>
+                            <option value="safari">Safari</option>
+                            <option value="internetexplorer">Internet Explorer</option>
+                    </select><br>
+                </div>
+                <div class="form-item column1">
+                    <label for="housepet">Do you have a household pet?</label>
+                    <input type="checkbox" id="housepet" name="housepet"></input>
+                </div>
+                <div class="places">
+                    <label for="placeslived">List the places you have lived:</label>
+                    <textarea id="placeslived" name="placeslived" rows="4" placeholder="New York New York, Salt Lake City Utah, Sacramento California, Seattle Washington"></textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+</body>
+<footer>
+    <p>&copy;2024 | HTML Form - User Poll Activity</p>
+</footer>
+
+</html>
