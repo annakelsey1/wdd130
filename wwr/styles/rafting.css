@@ -50,7 +50,6 @@ footer nav img {
 .header {
     position: relative;
     background-image: url('./../images/rafting11_1024.jpg');
-    background-repeat: none;
     width: 80vw;
     height: 50vh;
 }
