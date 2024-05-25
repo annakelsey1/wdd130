@@ -52,10 +52,26 @@ footer nav img {
     background-image: url('./../images/rafting11_1024.jpg');
     width: 80vw;
     height: 50vh;
+    display: grid;
+    grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
 }
 
 header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: end;
+    margin-left: 10px;
 }
