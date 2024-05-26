@@ -47,13 +47,21 @@
                     <input type="text" id="email" name="email">
                 </div>
                 <div>
-                    <label for="contact-reason">What is your reason for contacting us?</label>
-                    <select id="contact-reason" name="contact-reason">
-                            <option value="" selected disabled>Choose One...</option>
-                            <option value="general">General Inquiry</option>
-                            <option value="reservation">Reservation Question</option>
-                            <option value="suggestion">Website Suggestion</option>
-                    </select>
+                    <label>What is your reason for contacting us?</label><br>
+                    <label>
+                        <input type="radio" name="inquiryType" value="general">
+                        General Inquiry
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="inquiryType" value="reservation">
+                        Reservation Question
+                    </label>
+                    <br>
+                    <label>
+                        <input type="radio" name="inquiryType" value="suggestion">
+                        Website Suggestion
+                    </label>
                 </div>
                 <div>
                     <label for="message">Please write your message here:</label>
@@ -67,6 +75,9 @@
             </fieldset>
             <button type="submit">Submit Form</button>
         </form>
+        <div>
+            <h1>Contact Information</h1>
+        </div>
         <section>
             <h2>Address</h2>
             <p>1234 Terry Street<br>Far Out City, Wyoming, 74635</p>
