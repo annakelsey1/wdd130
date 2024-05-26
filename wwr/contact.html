@@ -35,9 +35,38 @@
                 <figcaption>Join our friendly team on a fun adventure!</figcaption>
             </figure>
         </section>
-        <div>
-            <h1>Contact Information</h1>
-        </div>
+        <form>
+            <fieldset>
+                <legend>Contact Us</legend>
+                <div>
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div>
+                    <label for="email">Email Address</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div>
+                    <label for="contact-reason">What is your reason for contacting us?</label>
+                    <select id="contact-reason" name="contact-reason">
+                            <option value="" selected disabled>Choose One...</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="reservation">Reservation Question</option>
+                            <option value="suggestion">Website Suggestion</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="message">Please write your message here:</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <div>
+                    <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="subscribe" name="subscribe"></input>
+                </div>
+                
+            </fieldset>
+            <button type="submit">Submit Form</button>
+        </form>
         <section>
             <h2>Address</h2>
             <p>1234 Terry Street<br>Far Out City, Wyoming, 74635</p>
@@ -45,7 +74,7 @@
             <p>801-867-5309</p>
             <h2>Email</h2>
             <p>rafting-momentum@gmail.com</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12195.697727267041!2d-111.610079!3d40.1662362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874dbd876b0a7afd%3A0xaaa522b30ff71c33!2sSpringville%20Public%20Library!5e0!3m2!1sen!2sus!4v1716745187044!5m2!1sen!2sus" width="300" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12195.697727267041!2d-111.610079!3d40.1662362!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874dbd876b0a7afd%3A0xaaa522b30ff71c33!2sSpringville%20Public%20Library!5e0!3m2!1sen!2sus!4v1716745187044!5m2!1sen!2sus" width="200" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <footer>
