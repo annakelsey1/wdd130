@@ -82,3 +82,68 @@ section {
     grid-gap: 10px;
 }
 
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 3px solid rgb(40, 118, 190);
+    border-radius: 20px;
+    background-color: azure;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 5px;
+    padding: 5px;
+    border: 1px solid rgb(26, 27, 4);
+}
+
+legend {
+    padding: 5px;
+    font-size: large;
+    font-style: oblique;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 20px;
+}
+
+input,
+select,
+textarea {
+    padding: 5px;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 1.3rem;
+    height: 1.3rem;
+    vertical-align: bottom;
+}
+
+button {
+    border: 1px solid rgb(49, 48, 48);
+    padding: 5px;
+    border-radius: .5rem;
+    font-size: 1rem;
+    background: rgb(230, 211, 104);
+}
+
+button:hover {
+    background-color: rgb(55, 180, 238);
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
