@@ -147,3 +147,24 @@ button:hover {
     display: grid;
     align-items: center;
 }
+
+.index-image {
+    position: relative;
+    width: 90vw;
+    height: 50vh;
+    background-image: url('./../images/index-main-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.index-header {
+    position: absolute;
+    top: -9%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    color: #37444b;
+    font-size: 3em;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
