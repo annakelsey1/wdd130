@@ -29,6 +29,9 @@ h1 {
 
 article {
     position: relative;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 p {
